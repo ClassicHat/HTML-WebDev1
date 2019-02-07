@@ -1,0 +1,23 @@
+/********************************
+* Name: Dylan Buehler
+* Date: Jan 31 2019
+* Project: Warm-Up
+* FileName: styles.css
+*********************************/
+body{background-color: dimgrey;}
+
+p{color:limegreen;}
+   
+h2{font-style:oblique;}
+  
+div{background-color:grey;}
+ 
+header{background-color:grey;}
+
+footer{font-size: 1.5em; 
+	  font-style:italic;
+	  text-align:center;}
+
+#footerFont{background-color:red;}
+.peachColor{background-color:#c6d6b0;}
+.greyColor{background-color:grey;}

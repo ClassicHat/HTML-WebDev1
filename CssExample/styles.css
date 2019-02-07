@@ -1,0 +1,10 @@
+/************************** 
+ * Name: Dylan Buehler
+ * Date: 1/24/2019
+ * Filename: styles.css
+ **************************/
+
+p{color:green; font-variant:small-caps;}
+body{background-color:beige;}
+h2{font-style:italic;}
+div{background-color:grey;}

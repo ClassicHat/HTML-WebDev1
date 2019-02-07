@@ -1,0 +1,14 @@
+/********************************
+* Name: Dylan Buehler
+* Date: Jan 31 2019
+* Project: About A Holiday
+* FileName: styles.css
+*********************************/
+body{background-color:pink;}
+header{text-align:center;}
+nav{text-align:left;}
+.colorYellow{background-color:lightyellow;}
+.colorWhite{background-color:white;}
+.colorGreen{background-color:lightgreen;}
+.colorBlue{background-color:lightblue;}
+span{font-style:italic;}

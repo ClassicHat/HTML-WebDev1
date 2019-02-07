@@ -1,0 +1,20 @@
+/*********************************
+ * Name: Dylan Buehler
+ * Date: Jan 24 2019
+ * Project: About You And A Hobby
+ * FileName: styles.css
+ *********************************/
+p{color: green;
+  font-variant:small-caps; 
+  font-size:x-large}
+  
+body{background-color:#1a1a1a;}
+
+h1{color: #00a3cc; 
+   font-style:italic;}
+   
+li{color: green; 
+   font-size:x-large}
+   
+div{background-color:grey; 
+    font-size:large}

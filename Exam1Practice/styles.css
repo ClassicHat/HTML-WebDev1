@@ -1,7 +1,37 @@
-*{margin:0px}
+*{margin:0px;
+  font-family: Arial;}
 
 body{background-color:#84596B;
 	 color:#F7F5F8;
 	 text-align:center;}
 	 
-h1{text-shadow:2px 2px 5px black;}
+h1{text-shadow:2px 2px 5px black;
+   font-family: 'Indie Flower', cursive;}
+
+footer {font-weight: bold;
+		font-style: italic;}
+		
+section {text-align: left;
+		 border-bottom: 2px solid black;
+		 padding: 10px;
+		 color: #191716;}
+		 
+header {background-color: #603A40;
+		color: #e9e3eb;
+		padding: 25px;}
+		
+#container {width: 80%;
+			margin: auto;
+			box-shadow: 0px 10px 5px #191716;
+			background-color: #b6a4bc;}
+			
+.odd {background-color: #E9E3Eb;
+	  text-align: right;}
+	  
+a {text-decoration: none;}
+
+a:link {color: white;}
+a:visited {color: gray;}
+a:hover {background-color: #84596B;}
+
+figure {color: black;}

@@ -1,0 +1,51 @@
+/***************************
+ * Name: Dylan Buehler
+ * Date: 2/12/2019
+ * Filename: styles.css
+ * Copyright: DilCoInc 2019
+ ***************************/
+p, html, h1, body {margin: 0px;}
+/*Structural Styles */
+body {background-color: black;
+	  color: black;}
+
+.container {width: 80%;
+			margin: auto;
+			background-color: #226666;
+			text-align: center;}
+			
+div {padding-left: 25px;
+     padding-right: 25px;}
+	 
+h2 {font-size: .85em;}
+
+p {text-align: left;
+   line-height: 25px;}
+/*Header Rules */
+header {border-bottom: 2px double black;
+		box-shadow: 0px 3px 5px;}
+h1 {font-family: 'Indie Flower', cursive;}
+/* Navigation Styles */
+nav {text-align: center;
+	 padding: 15px;}
+	 
+a {text-decoration: none;}
+a:link, a:visited {color: #003333;}
+a:hover {background-color: #669999;}
+/*Section Styles */
+section {padding: 25px;
+	     padding-top: 5px;
+		 border-top: 1px solid black;
+		 background-color: #0D4D4D;
+		 text-align: left;}
+
+.even {color: #669999;}
+.odd {background-color: #669999;}
+
+/*Footer Styles*/
+footer {text-align: center;
+		font-weight: bold;
+		background-color: #669999;
+		border-top: 1px double black;
+		border-bottom: 1px double black;
+		margin-top: 15px;}

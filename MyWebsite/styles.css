@@ -4,7 +4,7 @@ body {background-color: white;}
 
 .box1 {margin: auto;
        background-color: lightblue;
-       width: 80%;
+       width: 90%;
        padding-top: 50px;
        padding-bottom: 50px;
        text-align: center;
@@ -14,7 +14,7 @@ body {background-color: white;}
 
 .box2 {margin: auto;
        background-color: dimgray;
-       width: 70%;
+       width: 80%;
        padding-top: 50px;
        padding-bottom: 50px;
        text-align: center;

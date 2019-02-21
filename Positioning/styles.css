@@ -10,7 +10,8 @@ div.container {
   border-width: 5px;
   border-style: solid;
   background-color: white;
-  padding:20px 20px 0 20px
+  padding:20px 20px 0 20px;
+  position: relative;
 }
 
 footer {
@@ -19,3 +20,20 @@ footer {
   padding: 7px 20px;
   margin: 10px -20px 0 -20px
 }
+
+h1 {position: relative; top: 5px; right: 25px;}
+
+.fab {color: rgba(231,50,91,.5); font-size: 2em; padding-right: 5px;}
+
+.socialmedia {position: fixed; top: 0px; right: 20px;}
+
+img{position: absolute; bottom: -45px; right: -25px;}
+
+a:link{color:#000;}
+a:visited{color:#000;}
+a:hover{color:#e7325b;}
+a{text-decoration: none;}
+
+li {display: inline-block; width: 25%}
+ul{text-align: center; background-color: #029372;}
+nav {padding: 25px;}

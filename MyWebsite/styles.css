@@ -1,1 +1,38 @@
-body {background-color: red;}
+* {margin: 0px;}
+
+body {background-color: white;}
+
+.box1 {margin: auto;
+       background-color: lightblue;
+       width: 80%;
+       padding-top: 50px;
+       padding-bottom: 50px;
+       text-align: center;
+       color: darkblue;
+       font-weight: bold;
+       font-size: 1.5em;}
+
+.box2 {margin: auto;
+       background-color: dimgray;
+       width: 70%;
+       padding-top: 50px;
+       padding-bottom: 50px;
+       text-align: center;
+       color: lightblue;
+       font-weight: bold;
+       font-size: 1.5em;}
+
+nav {padding-top: 25px;}
+
+a {text-decoration: none;}
+a:link, a:visited {color: white;}
+a:hover {background-color: gray;}
+
+#colorYellow {background-color: yellowgreen;}
+
+.fontSize {font-size: 1.5em;}
+
+#altPadding {padding-bottom: 0px;
+             color: yellowgreen;}
+
+img {padding-bottom: 25px;}

@@ -18,7 +18,8 @@ footer {
   background-color: #e7325b;
   color: #fdc6d6;
   padding: 7px 20px;
-  margin: 10px -20px 0 -20px
+  margin: 10px -20px 0 -20px;
+  position: absolute; bottom: 0px;
 }
 
 h1 {position: relative; top: 5px; right: 25px;}

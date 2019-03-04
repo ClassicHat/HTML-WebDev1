@@ -1,0 +1,54 @@
+/******************************
+ * Name: Dylan Buehler
+ * Date: 3/4/2019
+ * Filename: index.html
+ * Copyright: DilCoInc 2019
+ ******************************/
+
+/******[ Miscellaneous Styling ]******/
+* {margin: 0px;}
+body{background-color: darkgrey;}
+.container{margin: 0px 50px;}
+section{font-size: 1.2em;
+        padding: 25px;}
+h4{font-size: 1.5em;}
+/****[ End Miscellaneous Styling ]****/
+
+/******[ Profile Styling ]******/
+.limage{float: left;
+        padding-right: 25px;}
+.rimage{float: right;
+        padding-left: 25px;}
+#leftpad{padding-left: 25px;}
+#background{background-color: silver;}
+/****[ End Profile Styling ]****/
+
+/******[ Section Styling ]******/
+.odd{background-color: silver;
+     text-align: left;}
+.even{background-color: tan;
+      text-align: right;}
+/****[ End Section Styling ]****/
+
+/******[ Navigation Styling ]******/
+ul{text-align: center; 
+   background-color: goldenrod;
+   padding: 25px;}
+li {display: inline-block; width: 25%}
+/****[ End Navigation Styling ]****/
+
+/******[ Link Styling]******/
+a:link{color:#000;}
+a:visited{color:#000;}
+a:hover{background-color: grey;}
+a{text-decoration: none;}
+/****[ End Link Styling]****/
+
+/******[ Footer Styling ]******/
+footer{position: fixed; 
+       width:100%;
+       bottom: 0px;
+       padding-top: 25px;
+       background-color:goldenrod;
+       text-align: center;}
+/****[ End Footer Styling ]****/

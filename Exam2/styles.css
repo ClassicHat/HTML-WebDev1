@@ -14,6 +14,13 @@ section{font-size: 1.2em;
 h4{font-size: 1.5em;}
 /****[ End Miscellaneous Styling ]****/
 
+/******[ Header Styling ]******/
+header{font-size: 2em;
+       background-color: goldenrod;
+       color: black;
+       text-align: center;}
+/****[ End Header Styling ]****/
+
 /******[ Profile Styling ]******/
 .limage{float: left;
         padding-right: 25px;}

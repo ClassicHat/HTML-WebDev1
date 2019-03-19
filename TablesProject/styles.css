@@ -1,0 +1,26 @@
+body{background-image: url(tennis_court.jpg);
+     background-size: cover;
+     background-attachment: fixed;}
+
+table{margin: 100px 0px 0px 200px; width:80%}
+
+table, td, th {border: 2px yellow solid;
+               opacity: .85;}
+
+th, td {padding: 10px;
+        text-align: center;}
+
+tr:nth-child(even)
+{
+  background-color: #e8e8e8;
+}
+tr:nth-child(odd)
+{
+  background-color: white;
+}
+
+th, .sidebar {background-color: #2b4e2d; color: white;}
+
+/* you have a schedule folder */
+/* at the same level is the index.html */
+/* in the href do <a href="./schedule/" */

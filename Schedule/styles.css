@@ -1,0 +1,7 @@
+body{background-color: darkgrey;}
+
+table{margin: 100px 100px; width: 80%;}
+tr:nth-child(even)
+{
+    background-color: firebrick;
+}

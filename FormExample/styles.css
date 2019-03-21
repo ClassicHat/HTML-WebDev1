@@ -1,0 +1,11 @@
+body{background-image: url(makeAppt.jpg);
+     background-size: cover;
+     background-attachment: fixed;}
+
+.container{margin: auto;
+           width: 80%;
+           background-color: #eeeeee;
+           padding: 25px;
+           border-radius: 5px;}
+
+h2{text-align: center;}

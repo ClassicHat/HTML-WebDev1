@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Advising Appointment</h2>
+    <div class="container">
+      <h2>My First Form!</h2>
+
+      <form>
+
+        <fieldset>
+          <legend>Contact Information</legend>
+          First Name: <input name="firstname" type="text" placeholder="First Name" autofocus>
+          Last Name: <input name="lastname" type="text" required>
+          Email: <input name="email" type="email" required>
+        </fieldset>
+        <fieldset>
+          <legend>Reservation Request</legend>
+          <select name="Advisors">
+            <option value="Renee">Renee</option>
+            <option value="Kirsten">Kirsten</option>
+          </select>
+          <select name="Months">
+            <option value="April">April</option>
+            <option value="May">May</option>
+          </select>
+          <input type="number" name="day" value="1" min=1 max=31>
+          <input type="radio" name="ampm" value="am" checked> Am
+          <input type="radio" name="ampm" value="am" checked> Pm
+        </fieldset>
+        <fieldset>
+          <legend>Classes</legend>
+          <input type="checkbox" name="java"> Java
+          <input type="checkbox" name="csharp"> C#
+          <input type="checkbox" name="Web Dev"> Web Dev
+        </fieldset>
+        <fieldset>
+          <legend>Additional Information</legend>
+          <textarea name="extrainfo" rows="3" cols="50" placeholder="Any Text Here"></textarea>
+        </fieldset>
+
+
+        <input type="submit" value="Register Now">
+      </form>
+
+    </div>
+
+  </body>
+</html>

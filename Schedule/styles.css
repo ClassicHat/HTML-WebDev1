@@ -1,7 +1,16 @@
 body{background-color: darkgrey;}
 
-table{margin: 100px 100px; width: 80%;}
+table, td, th{border: 2px solid black;}
+
+table{margin: 100px 100px; width: 80%; text-align: center;}
+
 tr:nth-child(even)
 {
-    background-color: firebrick;
+    background-color: green;
+    color: black;
+}
+tr:nth-child(odd)
+{
+    background-color: dimgray;
+    color: green;
 }

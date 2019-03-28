@@ -17,7 +17,7 @@ table{margin: auto; width: 90%; text-align: center;}
 
 tr:nth-child(even)
 {
-    background-color: green;
+    background-color: lightblue;
     color: black;
     font-size: 1.5em;
 }
@@ -33,7 +33,7 @@ h1 {text-shadow: 5px 5px 1px black;}
 /****[ Header / Nav Properties ]**************/
 .box1 {margin: auto;
        margin-bottom: 100px;
-       background-color: green;
+       background-color: lightblue;
        width: 100%;
        padding-top: 50px;
        padding-bottom: 50px;

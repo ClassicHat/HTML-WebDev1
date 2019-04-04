@@ -1,0 +1,37 @@
+body{background-color: #BBB;}
+.container {
+  max-width: 750px;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  background-color:#f2f2f2;
+}
+
+.equal-height-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first {
+  background-color: #FFF;
+  padding: 20px;
+  flex: 3 400px;
+}
+
+.second {
+  background-color: yellow;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-a {
+  background-color: #c0dbe2;
+  flex: 1;
+}
+
+.second-b {
+  background-color: #cdf1c3;
+  flex: 1;
+}

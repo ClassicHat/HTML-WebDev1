@@ -1,0 +1,26 @@
+body{background-color: #BBB;}
+.container {
+  max-width: 750px;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  background-color:#f2f2f2;
+
+}
+
+.columns-container {
+  background-color: #bbb;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.columns {
+  padding: 20px;
+  flex-basis: 25%;
+}
+
+
+.columns:nth-child(1) {background-color: #c0dbe2;}
+.columns:nth-child(2) {background-color: #cdf1c3;}
+.columns:nth-child(3) {background-color: #ccb9da;}

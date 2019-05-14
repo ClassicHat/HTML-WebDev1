@@ -65,6 +65,10 @@ tr.tdheader{text-decoration: underline;}
     color: orange;
 }
 
+.calendersizing{
+    width: 100%;
+}
+
 @media screen and (max-width: 600px){
     body{
         margin:auto;

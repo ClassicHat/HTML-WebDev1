@@ -1,0 +1,78 @@
+body{
+    margin:auto;
+    width: 80%;
+    background-color: dimgray;
+}
+
+html {background-color: dimgray;}
+
+figure {
+    display: flex;
+    margin: 0px;
+}
+
+img{flex: 1;}
+
+nav{
+    background-color: #414347;
+}
+
+a{color: white;}
+
+.banner{background-color: white;}
+
+.bannerimg{
+    width: 80%;
+    height: 500px;
+}
+
+.moto{
+    text-align: center;
+    size: 1.5em;
+    background: #414347;
+    color: white;
+}
+
+.rcorners {
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.mytable{
+    margin: 0px;
+    background-color: #414347;
+    text-align: center;
+}
+
+tr.tdheader{text-decoration: underline;}
+
+.cardresize{
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile{
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+
+.profileimg{
+    width: 50%;
+}
+
+.courselinks{
+    color: orange;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin:auto;
+        width: 100%;
+        background-color: dimgray;
+    }
+
+    .bannerimg{
+        height: 220px;
+    }
+}
